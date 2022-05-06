@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main(){
+    int a,b;
+    printf("The Any Number :");
+    scanf("%d",&a);
+    printf("\t\t\t list of natural number");
+    for(b=0;b<=a;b++)
+    {
+        printf("%d\n",b);
+    
+    }
+
+    return 0;
+}

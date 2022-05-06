@@ -1,0 +1,51 @@
+declearing a variable:
+int a;
+char a;
+float a;
+
+assiging a variable:
+a=5;
+a=22;
+v=365;
+
+data types:
+int;
+char;
+float;
+double;
+string;
+
+format specifier:
+int %d;
+char %c;
+float %f;
+string %s;
+
+logical operators:
+"==" equals to;
+"=!" not eqauls to;
+"<=" less than and eqauls to;
+">=" greater and equals to;
+
+arithmetical operators:
+"+" for addition;
+"-" for subtraction;
+"/" for division;
+"%" for reminders;
+
+functions:
+printf(); 
+scanf(); "&" is use in input function;
+
+loops:
+for()
+while()
+do while()
+
+conditions:
+if else;
+else if;
+else else if;
+
+
+ 

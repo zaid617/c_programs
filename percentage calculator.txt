@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<conio.h>
+ float percentage(float math, float chemistry, float physics, float english, float urdu, float islamiat, float total);
+ int main(){
+
+    float math, chemistry, physics, english, urdu, islamiat ,total;
+    
+
+    printf("Enter Marks Obtained In Maths \n");
+    scanf("%f",&math);
+    printf("Enter Marks Obtained In  Chemistry \n");
+    scanf("%f",&chemistry);
+    printf("Enter Marks Obtained In Physics \n");
+    scanf("%f",&physics);
+    printf("Enter Marks Obtained In Englsih \n");
+    scanf("%f",&english);
+    printf("Enter Marks Obtained In Urdu \n");
+    scanf("%f",&urdu);
+    printf("Enter Marks Obtained In Islamiat \n");
+    scanf("%f",&islamiat);
+    printf("Enter Total Marks \n");
+    scanf("%f",&total);
+
+    printf("Your Percentage In Exams Is %.1f", percentage(math, chemistry, physics, english, urdu, islamiat, total));
+    
+ return 0;
+}
+
+
+
+float percentage(float math, float chemistry, float physics, float english, float urdu, float islamiat, float total)
+{
+    int p;
+    p = (math+chemistry+physics+english+urdu+islamiat)/total*100;
+ if(p<40){
+        printf("you fail\n");}
+        else {
+            printf("you pass\n");
+        } 
+    return p; 
+}

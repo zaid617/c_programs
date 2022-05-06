@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main(){
+    int a,b,c;
+    
+    printf("ENTER ANY NUMBER TO PRINT THE TABLE:");
+    scanf("%d",&a);
+    printf("\t\t\t***THE MULTIPLICATION TABLE OF GIVEN NUMBER***\n");
+    for (b=1;b<=10;b++)
+    {
+        printf("\t\t\t\t%d times %d is equals to %d \n",a,b,a*b);
+        
+    }
+    
+    
+    return 0;
+}
